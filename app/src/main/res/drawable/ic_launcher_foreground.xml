@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Ambient background soft fuchsia radial glow for the logo itself -->
+    <path
+        android:fillColor="#1AD946EF"
+        android:pathData="M54,54m-30,0a30,30 0 1,1 60,0a30,30 0 1,1 -60,0" />
+
+    <!-- Sleek hourglass outer plates and frame -->
+    <!-- Top base plate -->
+    <path
+        android:strokeColor="#D946EF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M 35,30 L 73,30" />
+
+    <!-- Bottom base plate -->
+    <path
+        android:strokeColor="#D946EF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M 35,78 L 73,78" />
+
+    <!-- Hourglass left curved side -->
+    <path
+        android:strokeColor="#D946EF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 38,30 C 40,46 48,48 48,54 C 48,60 40,62 38,78" />
+
+    <!-- Hourglass right curved side -->
+    <path
+        android:strokeColor="#D946EF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 70,30 C 68,46 60,48 60,54 C 60,60 68,62 70,78" />
+
+    <!-- Falling particles / digital sand nodes representing seconds/knowledge ticks -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M 54,42 A 2 2 0 1 1 53.99,42 Z" />
+    <path
+        android:fillColor="#FDF4FF"
+        android:pathData="M 54,48 A 1.5 1.5 0 1 1 53.99,48 Z" />
+    <path
+        android:fillColor="#FDF4FF"
+        android:pathData="M 54,60 A 1.5 1.5 0 1 1 53.99,60 Z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M 54,66 A 2 2 0 1 1 53.99,66 Z" />
+
+    <!-- Energetic neon lightning bolt representing high-yield speed/power -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M 58,34 L 45,52 L 54,52 L 50,74 L 63,56 L 54,56 Z" />
+
+    <!-- Inner Core Lightning highlight for a premium glowing 3D depth effect -->
+    <path
+        android:fillColor="#FDF4FF"
+        android:pathData="M 57,37 L 48,51 L 54,51 L 51,71 L 61,57 L 54,57 Z" />
+</vector>

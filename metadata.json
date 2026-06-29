@@ -1,0 +1,6 @@
+{
+  "name": "Zero Hour",
+  "description": "Premium, high-utility, deadline-driven application that instantly generates actual, ready-to-use preparation material via Gemini based on a strict deadline clock.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
